@@ -1,4 +1,5 @@
 # 20210410 PyG Data 简单示例
+# 建模一个简单的4结点图
 import torch
 from torch_geometric.data import Data
 
