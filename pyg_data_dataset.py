@@ -19,6 +19,7 @@ dataset2 = Planetoid(root='/tmp/Cora', name='Cora')   # 下载稍微有慢
 # 直接去数据仓库中下载对应的数据后将相应的文件放入/tmp/Cora/raw文件夹中
 # cp ~/Downloads/planetoid-master/data/*cora* ./row
 # 运行完代码后会生成一个./processed 文件
+# https://github.com/kimiyoung/planetoid/raw/master/data
 
 print("数据集的大小(有多少张图)：", len(dataset))
 print("图的类别数：", dataset.num_classes)
